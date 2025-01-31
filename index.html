@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monitoramento Financeiro</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Monitoramento Financeiro</h1>
+    </header>
+    <main>
+        <section class="dashboard">
+            <div class="card" id="saldo">
+                <h2>Saldo Atual</h2>
+                <p id="saldo-valor">R$ 0,00</p>
+            </div>
+            <div class="card">
+                <h2>Entradas</h2>
+                <p id="entradas-valor">R$ 0,00</p>
+            </div>
+            <div class="card">
+                <h2>Saídas</h2>
+                <p id="saidas-valor">R$ 0,00</p>
+            </div>
+        </section>
+        <section class="transacoes">
+            <h2>Adicionar Transação</h2>
+            <input type="text" id="descricao" placeholder="Descrição">
+            <input type="number" id="valor" placeholder="Valor">
+            <button onclick="adicionarTransacao()">Adicionar</button>
+        </section>
+        <section class="historico">
+            <h2>Histórico</h2>
+            <ul id="historico-lista"></ul>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

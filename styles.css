@@ -1,0 +1,88 @@
+/* Reset de estilos para manter um visual limpo */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #0f0f0f;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+header {
+    background-color: #008000;
+    color: white;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.dashboard {
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+    padding: 20px;
+}
+
+.card {
+    background: #1c1c1c;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 255, 0, 0.2);
+    width: 30%;
+}
+
+.card h2 {
+    color: #00ff00;
+}
+
+.transacoes, .historico {
+    margin-top: 20px;
+    background: #1c1c1c;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 255, 0, 0.2);
+}
+
+input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #00ff00;
+    border-radius: 5px;
+    background: #0f0f0f;
+    color: white;
+}
+
+button {
+    background: #00ff00;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #009900;
+}
+
+ul {
+    list-style: none;
+    margin-top: 10px;
+}
+
+ul li {
+    background: #0f0f0f;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border-left: 4px solid #00ff00;
+}
